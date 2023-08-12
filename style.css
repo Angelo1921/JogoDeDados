@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 32px;
+}
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1 {
+    width: 300px;
+    text-align: center;
+}
+button {
+    width: 200px;
+
+}
+.dice-area {
+    width: 350px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #c99ff4;
+
+}
